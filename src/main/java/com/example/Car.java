@@ -6,6 +6,7 @@ public class Car {
     private int Speed;
 
     private String goodPoint = "テスト満点！";
+    private int velocity;
 
     @Override
     public String toString() {
