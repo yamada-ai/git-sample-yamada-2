@@ -2,7 +2,7 @@ package com.example;
 
 public class Car {
     private String name;
-    private int speed;
+    private int velocity;
 
     @Override
     public String toString() {
