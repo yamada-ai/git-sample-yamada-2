@@ -5,8 +5,7 @@ public class Car {
 
     private int Speed;
 
-    private int velocity;
-
+    private String goodPoint = "テスト満点！";
 
     @Override
     public String toString() {
@@ -15,6 +14,11 @@ public class Car {
                 ", speed=" + Speed +
                 '}';
     }
+
+    public void sayHello(){
+        System.out.println("実は運転手は山田です");
+    }
+
 
 
     public String getName() {
