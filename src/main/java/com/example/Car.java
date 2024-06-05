@@ -2,15 +2,20 @@ package com.example;
 
 public class Car {
     private String name;
+
+    private int Speed;
+
     private int velocity;
+
 
     @Override
     public String toString() {
         return "Car{" +
                 "name='" + name + '\'' +
-                ", speed=" + speed +
+                ", speed=" + Speed +
                 '}';
     }
+
 
     public String getName() {
         return name;
@@ -21,10 +26,10 @@ public class Car {
     }
 
     public int getSpeed() {
-        return speed;
+        return Speed;
     }
 
-    public void setSpeed(int speed) {
-        this.speed = speed;
+    public void setSpeed(int Speed) {
+        this.Speed = Speed;
     }
 }
