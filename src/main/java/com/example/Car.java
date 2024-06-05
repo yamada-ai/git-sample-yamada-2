@@ -2,13 +2,17 @@ package com.example;
 
 public class Car {
     private String name;
-    private int nekiSpeed;
+
+    private int Speed;
+
+    private int velocity;
+
 
     @Override
     public String toString() {
         return "Car{" +
                 "name='" + name + '\'' +
-                ", speed=" + nekiSpeed +
+                ", speed=" + Speed +
                 '}';
     }
 
@@ -21,11 +25,11 @@ public class Car {
         this.name = name;
     }
 
-    public int getNekiSpeed() {
-        return nekiSpeed;
+    public int getSpeed() {
+        return Speed;
     }
 
-    public void setNekiSpeed(int nekiSpeed) {
-        this.nekiSpeed = nekiSpeed;
+    public void setSpeed(int Speed) {
+        this.Speed = Speed;
     }
 }
