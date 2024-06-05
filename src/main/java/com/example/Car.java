@@ -7,6 +7,8 @@ public class Car {
 
     private int velocity;
 
+    private String goodPoint = "いいとこあるやん";
+
 
     @Override
     public String toString() {
